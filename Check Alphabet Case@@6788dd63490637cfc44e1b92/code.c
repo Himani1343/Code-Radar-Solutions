@@ -1,6 +1,6 @@
 #include<stdio.h>
 int main(){
-    char x;
+    char n;
     scanf("%c",&x);
     if(n>=a && n<=z){
         printf("Lowercase");
