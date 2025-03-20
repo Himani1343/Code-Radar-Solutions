@@ -1,5 +1,5 @@
 #include <stdio.h>
-int main()
+int main(){
 int a;
 int b;
 scanf("%d",&a);
@@ -9,5 +9,6 @@ if(a>b){
 }
     else{
         printf("False");
-        return 0;
     }
+        return 0;
+}
