@@ -10,6 +10,7 @@ int main(){
     }
     else(a>b){
         printf("False");
-        return 0;
     }
+        return 0;
+    
 }
