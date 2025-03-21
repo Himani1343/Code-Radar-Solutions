@@ -6,10 +6,10 @@ int main(){
     scanf("%d",&x);
     scanf("%d",&y);
     scanf("%d",&z);
-    if(x=y=z){
+    if(x==y==z){
         printf("Equilateral");
     }
-    if(x=y||y=z||x=z){
+    if(x==y||y==z||x==z){
         printf("Isosceles");
     }
     if(x!=y!=z){
