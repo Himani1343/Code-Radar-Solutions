@@ -6,13 +6,13 @@ int main(){
  scanf("%d",&a);
 scanf("%d",&b);
 scanf("%d",&c);
-if(a>b)&&(a>c){
+if((a>b)&&(a>c)){
     printf("%d",a);
 }
-if(b>a)&&(b>c){
+if((b>a)&&(b>c)){
     printf("%d",b);
 }
-if(c>a)&&(c>b){
+if((c>a)&&(c>b)){
     printf("%d",c);
 }
 
