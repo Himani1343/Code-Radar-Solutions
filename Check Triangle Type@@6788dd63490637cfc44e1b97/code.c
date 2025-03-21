@@ -1,19 +1,18 @@
 #include<stdio.h>
-int main(){
-    int x;
-    int y;
-    int z;
-    scanf("%d",&x);
-    scanf("%d",&y);
-    scanf("%d",&z);
-    if(x==y==z){
+
+int main() {
+    int x, y, z;
+    scanf("%d", &x);
+    scanf("%d", &y);
+    scanf("%d", &z);
+
+    if(x == y && y == z) {
         printf("Equilateral");
-    }
-    if(x==y||y==z||x==z){
+    } else if(x == y || y == z || x == z) {
         printf("Isosceles");
-    }
-    if(x!=y!=z){
+    } else {
         printf("Scalene");
     }
+
     return 0;
 }
