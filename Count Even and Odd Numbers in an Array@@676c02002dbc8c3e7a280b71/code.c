@@ -8,12 +8,14 @@ for(int i=0;i<=n-1;i++){
     int countEven=0;
     int countOdd=0;
     for(int i=0;i<=n-1;i++){
-        if(arr[i]%2==0)
-        countEven=countEven+arr[i];
+        if(arr[i]%2==0){
+        countEven=countEven+arr[i];}
 
-        else
+        else{
         countOdd=countOdd+arr[i];
     }
+    
+}
     printf("%d %d",countEven,countOdd);
-    return 0;
+return 0;
 }
