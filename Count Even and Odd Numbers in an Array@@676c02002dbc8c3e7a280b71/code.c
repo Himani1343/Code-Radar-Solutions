@@ -7,13 +7,13 @@ for(int i=0;i<n;i++){
     scanf("%d",&arr[i]);}
     int countEven=0;
     int countOdd=0;
-    for(int i=0;i<n;i++){
+    
         if(arr[i]%2==0){
         countEven+=arr[i];}
 
         else{
         countOdd+=+arr[i];
-    }
+    
     
 }
     printf("%d %d",countEven,countOdd);
