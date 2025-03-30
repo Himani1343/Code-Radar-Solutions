@@ -9,10 +9,10 @@ for(int i=0;i<n;i++){
     int countOdd=0;
     for(int i=0;i<n;i++){
         if(arr[i]%2==0){
-        countEven=countEven+arr[i];}
+        countEven+=arr[i];}
 
         else{
-        countOdd=countOdd+arr[i];
+        countOdd+=+arr[i];
     }
     
 }
