@@ -14,6 +14,6 @@ for(int i=0;i<=n-1;i++){
         else
         countOdd=countOdd+arr[i];
     }
-    printf("/n %d",countEven,countOdd);
+    printf(" %d","%d",countEven,countOdd);
     return 0;
 }
