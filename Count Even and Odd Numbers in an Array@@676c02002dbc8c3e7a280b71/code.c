@@ -6,7 +6,7 @@ scanf("%d",&n);
 int arr[n],i;
 int countEven=0;
 int countOdd=0;
-for(int i=1;i<=n;i++)
+for(int i=0;i<n;i++)
 {
     scanf("%d",&arr[i]);
     if(arr[i]%2!=0)
@@ -19,7 +19,8 @@ for(int i=1;i<=n;i++)
     
     
 }
+}
 printf("%d %d",countEven,countOdd);
 return 0;
-}
+
 }
