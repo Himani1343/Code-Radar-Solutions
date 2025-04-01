@@ -2,13 +2,19 @@
 int main(){
     int n;
     scanf("%d",&n);
+
     int arr[n];
-    int sum=0;
+    int count=0;
     for(int i=0;i<n;i++){
         scanf("%d",&arr[i]);
     }
     for(int i=0;i<n;i++){
-        sum=sum+arr[i];
+    while(arr[i]!=0){
+        arr[i]=arr[i]/10;
+        count++;
+
+        
     }
-    printf("%d ",arr[i]);
+    }
+    printf("%d ",arr[n]);
 }
