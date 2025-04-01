@@ -1,5 +1,5 @@
 #include<stdio.h>
-int main()
+int main(){
 int n;
 int flag=-1;
 scanf("%d",&n);
