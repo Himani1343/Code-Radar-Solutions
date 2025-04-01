@@ -5,15 +5,15 @@ int main(){
     int k;
     scanf("%d",&k);
    int arr[n];
-   count=0;
-    for(i=0;i<n;i++){
+   int count=0;
+    for(int i=0;i<n;i++){
         scanf("%d",&arr[i]);
     }
-    for(i=0;i<n;i++){
+    for(int i=0;i<n;i++){
         if(k==arr[i]){
-            count++
+            count++;
         }
     }
-    printf("%d",count)
+    printf("%d",count);
 
 }
