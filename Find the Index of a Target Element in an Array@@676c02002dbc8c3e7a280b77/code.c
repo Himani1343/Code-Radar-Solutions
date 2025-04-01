@@ -11,7 +11,7 @@ int i,k;
 scanf("%d",&k);
 for(i=0;i<n;i++){
     if (arr[i]==k){
-    flag=i
+    flag=i;
     break;}
 }
 
