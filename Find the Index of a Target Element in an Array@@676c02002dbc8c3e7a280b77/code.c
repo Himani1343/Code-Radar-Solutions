@@ -10,9 +10,10 @@ for(int i=0;i<n;i++){
 int i,k;
 scanf("%d",&k);
 for(i=0;i<n;i++){
-    if (arr[i]==k){
-    flag=i;
-    break;}
+    if (arr[i]==k)
+   { flag=i;
+    break;
+    }
 }
 
 printf("%d",flag);}
